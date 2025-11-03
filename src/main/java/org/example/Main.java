@@ -1,11 +1,8 @@
 package org.example;
 
-import org.example.domain.Reserva;
 import org.example.domain.ReservaRepository;
 import org.example.infrastructure.ExternalReservaAPI;
 import org.example.infrastructure.ExternalReservaAdapter;
-import org.example.usecase.CancelarReserva;
-import org.example.usecase.CrearReserva;
 import org.example.infrastructure.InMemoryReservaRepository;
 import org.example.usecase.ReservaService;
 
